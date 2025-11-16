@@ -560,6 +560,10 @@ For questions, feature requests, or collaboration inquiries:
 ## To get the video snippets of the project- get to the link provided below:
 https://drive.google.com/drive/folders/1hEknIcyr8OvuQKOaldDBx3X3G65qVGwE?usp=sharing
 
+## the deployment is done on streamlit cloud
+for image part -> https://dynamic-visual-audit-2glrbnufmrsk5qhcre6ylj.streamlit.app/
+for video part -> https://dynamic-visual-audit-nokebrosnkakxrhfc2fcyd.streamlit.app/
+
 ---
 
 ## 📚 Citation
