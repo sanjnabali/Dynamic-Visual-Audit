@@ -557,6 +557,11 @@ For questions, feature requests, or collaboration inquiries:
 
 ---
 
+## To get the video snippets of the project- get to the link provided below:
+https://drive.google.com/drive/folders/1hEknIcyr8OvuQKOaldDBx3X3G65qVGwE?usp=sharing
+
+---
+
 ## 📚 Citation
 
 If you use DVA in your research or project, please cite:
