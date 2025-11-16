@@ -10,3 +10,5 @@ opencv-python
 numpy 
 plotly 
 pandas
+timm
+groq
