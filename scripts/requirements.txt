@@ -13,3 +13,6 @@ pandas
 timm
 groq
 opencv-python-headless
+onnxscript
+onnx
+
