@@ -21,6 +21,9 @@ dist/
 .env
 *.env
 
+videos/*.mp4
+*.mp4
+
 # Logs
 *.log
 
