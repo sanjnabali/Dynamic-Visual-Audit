@@ -18,7 +18,7 @@ From GNA University, Student of B.Tech CSE specializing in AI.
 
 ---
 
-## 🎯 Overview
+## Overview
 
 DVA (Dynamic Visual Audit) is an intelligent, cascaded visual inspection system designed to solve the fundamental challenge in computer vision: building a change detection pipeline that is both **real-time** and **robust**. Traditional approaches force a choice between speed (simple pixel differencing) and accuracy (heavy AI models). DVA eliminates this trade-off through a sophisticated three-stage architecture.
 
@@ -47,7 +47,7 @@ Raw Video → Stage 1 (Sieve) → Stage 2 (Semantic Gate) → Stage 3 (VLM Audit
 
 ---
 
-## 🏗️ System Architecture
+## System Architecture
 
 ### Stage 1: The Sieve (Real-Time Filter)
 
@@ -129,7 +129,7 @@ Raw Video → Stage 1 (Sieve) → Stage 2 (Semantic Gate) → Stage 3 (VLM Audit
 
 ---
 
-## 🚀 Key Innovations
+## Key Innovations
 
 ### 1. True Zero-Shot Auditing
 DVA can be deployed in completely new domains (manufacturing → retail → infrastructure) without retraining. The generative VLM describes changes in natural language rather than classifying into predefined categories.
@@ -154,7 +154,7 @@ The temporal stability gate (Stage 2.5) eliminates false positives caused by tra
 
 ---
 
-## 📦 Installation
+## Installation
 
 ### Prerequisites
 
@@ -193,7 +193,7 @@ streamlit run scripts/dva_on_video.py
 
 ---
 
-## 🎮 Usage
+## Usage
 
 ### Image-Based Analysis
 
@@ -243,7 +243,7 @@ streamlit run dva_on_video.py
 
 ---
 
-## 📊 Analytics Dashboard
+## Analytics Dashboard
 
 DVA provides real-time analytics for pipeline performance:
 
@@ -262,7 +262,7 @@ Track how the pipeline filters events through each stage:
 
 ---
 
-## 🗂️ Project Structure
+## Project Structure
 
 ```
 DVA/
@@ -282,7 +282,7 @@ DVA/
 
 ---
 
-## 🔬 Technical Deep Dive
+## Technical Deep Dive
 
 ### DINOv2 Semantic Analysis
 
@@ -359,7 +359,7 @@ if all(dino_confirmation_buffer):
 
 ---
 
-## 🎯 Use Cases & Applications
+## Use Cases & Applications
 
 ### 1. Manufacturing Quality Control
 **Scenario**: Real-time defect detection on production lines
@@ -421,9 +421,9 @@ if all(dino_confirmation_buffer):
 
 ---
 
-## 🚧 Current Implementation Status
+## Current Implementation Status
 
-### ✅ Fully Implemented
+### Fully Implemented
 - Stage 1: OpenCV-based Sieve with dual modes
 - Stage 2: DINOv2 semantic analysis with ONNX optimization
 - Stage 3: Groq VLM integration with focused ROI analysis
@@ -431,13 +431,13 @@ if all(dino_confirmation_buffer):
 - Analytics dashboard with funnel visualization
 - Temporal stability gating
 
-### 🔄 Partially Implemented
+### Partially Implemented
 - GPU acceleration (ONNX Runtime CUDA support available, requires hardware)
 - Multi-frame sequence analysis (implemented, tested up to 16 frames)
 
 ---
 
-## 🔮 Future Roadmap
+## Future Roadmap
 
 ### Near-Term Enhancements
 
@@ -477,7 +477,7 @@ if all(dino_confirmation_buffer):
 
 ---
 
-## 🧪 Testing & Validation
+## Testing & Validation
 
 ### Sample Data
 
@@ -514,7 +514,7 @@ streamlit run scripts/dva_on_video.py
 
 ---
 
-## 🤝 Contributing
+## Contributing
 
 We welcome contributions! Areas of interest:
 
@@ -528,13 +528,13 @@ Please open an issue or submit a pull request on GitHub.
 
 ---
 
-## 📄 License
+## License
 
 This project is licensed under the MIT License. See `LICENSE` file for details.
 
 ---
 
-## 🙏 Acknowledgments
+## Acknowledgments
 
 **Foundation Models**:
 - **DINOv2**: Meta AI Research (facebook/dinov2-with-registers-small)
@@ -548,7 +548,7 @@ This project is licensed under the MIT License. See `LICENSE` file for details.
 
 ---
 
-## 📧 Contact
+## Contact
 
 For questions, feature requests, or collaboration inquiries:
 
@@ -566,7 +566,7 @@ for video part -> https://dynamic-visual-audit-nokebrosnkakxrhfc2fcyd.streamlit.
 
 ---
 
-## 📚 Citation
+## Citation
 
 If you use DVA in your research or project, please cite:
 
